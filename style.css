@@ -43,14 +43,15 @@
 }
 @media screen and (max-width:701px){
     .space{
-        visibility: hidden;
+       display: none;
     }
-    .hello{
-      margin-left: 10%;
-    }
+    /* .hello{
+      margin-left: 10%; 
+    }  */
     .dg{
-      visibility: hidden;
+      display: none;
     }
+  
   
      
 }
@@ -58,6 +59,7 @@
 @media screen and (max-width:1013px){
   .space{
      margin-left: 5%;
+     
   }
 
    
@@ -68,7 +70,7 @@
   }
   .search{
     
-    margin-right: 400px;
+   
     display: block;
   }
 
